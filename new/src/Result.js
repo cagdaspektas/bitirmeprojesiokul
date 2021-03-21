@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import logo from './logo.svg';
+import './App.css';
 
 function Result() {
     const [normal, setNormal] = useState(0)

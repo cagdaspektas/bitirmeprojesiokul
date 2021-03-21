@@ -1,0 +1,11 @@
+.howp{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.howimg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    margin-top: 55px;
+}

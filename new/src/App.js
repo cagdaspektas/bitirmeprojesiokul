@@ -7,6 +7,7 @@ import {Switch, Route, Link, BrowserRouter} from "react-router-dom";
 import Result from './Result';
 import Upload from './Upload';
 import Home from './component/Navbar/Home';
+import How from './How';
 
 
 class App extends Component{
@@ -24,7 +25,7 @@ render(){ return(
        <Route path="/Upload"><Upload/></Route>
        <Route path="/Result"><Result/></Route>
        <Route path="/Home"><Home/></Route>
-
+       <Route path="/How"><How/></Route>
        </Switch>
        
 </div>
